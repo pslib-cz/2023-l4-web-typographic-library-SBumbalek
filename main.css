@@ -1,0 +1,114 @@
+:root {
+    --DarkGreen: #0f270f;
+    --MidGreen: #245224;
+    --LightGreen: #EBF5F0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.Heading_background {
+    background-image: url(./img/muneeb-syed-x9NfeD3FpsE-unsplash.jpg);
+    max-width: 1856px;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    border-radius: 2em;
+    margin-bottom: 32px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    color: white;
+}
+
+.Heading_Heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 128px;
+    text-transform: uppercase;
+}
+
+.Heading_text {
+    color: wheat;
+    font-size: 2em;
+    margin: 0 0 1em 0;
+}
+
+.Main_background {
+    background-color: var(--LightGreen);
+    border-radius: 2em;
+}
+
+.Main_Heading {
+    margin: 0 auto;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 64px;
+}
+
+.Line{
+    width: 50%;
+    height: 10px;
+    flex-shrink: 0;
+    background-color: var(--MidGreen);
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+    color: var(--MidGreen);
+}
+
+h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size: 256px;
+    margin-bottom: 0;
+    color: var(--DarkGreen);
+}
+
+h2 {
+
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+h4 {
+    font-size: 48px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+b {
+    font-weight: 700;
+    font-size: 1em;
+} 
+
+.text__caps {
+    text-transform: uppercase;
+}
