@@ -1,0 +1,265 @@
+:root {
+    --DarkGreen: #0f270f;
+    --MidGreen: #008000;
+    --LightGreen: #cde7d9;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Line */
+
+.Line__heading {
+    margin: 0 auto;
+    width: max-content;
+    padding-top: 64px;
+}
+
+.Line {
+    margin: auto;
+    width: 50%;
+    height: 4px;
+    flex-shrink: 0;
+    background-color: var(--MidGreen);
+}
+
+/* Text styles */
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    color: var(--MidGreen);
+    text-align: center;
+}
+
+h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+
+h1 {
+    font-size: 54px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    padding-top: 20px;
+}
+
+h2 {
+
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+b {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+ /* Card */
+
+.Articles__item {
+    max-width: calc(50vh - 16px);
+    margin: auto;
+    padding: 20px;
+}
+
+.Articles__item img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 64px;
+}
+
+.Articles__item-background {
+    background-color: white;
+    padding-bottom: 50px;
+    box-shadow: 0 10px 25px var(--DarkGreen);
+    transition: 0.5s;
+}
+
+.Articles__item-background:hover {
+    transform: scale(1.1);
+}
+
+.Articles__item p {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    margin: 0;
+    padding-top: 30px;
+    max-width: 75%;
+    margin: auto;
+}
+
+/* About card */
+
+.About {
+    text-align: center;
+    padding: 64px 16px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.About__img {
+    max-width: 100%;
+}
+
+/* Buttons */
+
+/* v1 */
+
+.Buttons__button-v1 {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: var(--DarkGreen);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.Buttons__button-v1:hover {
+    background-color: var(--MidGreen);
+    color: white;
+    box-shadow: 0 0 15px black;
+}
+
+/* v2 */
+
+.Buttons__button-v2 {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 100px;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.Buttons__button-v2:hover {
+    background-color: var(--DarkGreen);
+    color: white;
+    box-shadow: 0 0 15px black;
+}
+
+/* img + figcaption */
+
+.Img div {
+    max-width: 400px;
+    position: relative;
+}
+
+.Img img {
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.Img figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.Img:hover figcaption {
+    opacity: 1;
+}
+
+.Img:hover img {
+    transform: scale(1.1);
+}
+
+/* Gallery */
+
+.gallery div {
+    max-width: 400px;
+    margin: 10px; 
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.gallery figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.gallery figure:hover figcaption {
+    opacity: 1;
+}
+
+/* Table */
+
+.Table {
+    padding-bottom: 128px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.Table__caption {
+    font-size: 24px;
+    font-weight: bold;
+    color: #008000; /* Green color */
+    margin-bottom: 10px;
+}
+
+.Table__th, .Table__td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #008000; /* Green border */
+}
+
+.Table__th {
+    background-color: #008000; /* Green background for header cells */
+    color: white; /* White text for header cells */
+}
+
+.Table__tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
