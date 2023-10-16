@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** *Štěpán Bumbálek*
 ## Demo site
-Link to **[demo](http://127.0.0.1:5501/index.html)** site for preview.
+Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-SBumbalek/)** site for preview.
 ## Content
 1. [Implemantation](#implementation)
 2. [Usage](#usage)
