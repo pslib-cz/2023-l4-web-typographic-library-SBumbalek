@@ -123,6 +123,12 @@ b {
     max-width: 100%;
 }
 
+.Line__heading-About {
+    margin: 0 auto;
+    width: max-content;
+    padding-top: 64px;
+}
+
 /* Buttons */
 
 /* v1 */
@@ -162,6 +168,14 @@ b {
 
 /* img + figcaption */
 
+.Img {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    padding-top: 64px;
+}
+
 .Img div {
     max-width: 400px;
     position: relative;
@@ -195,6 +209,14 @@ b {
 }
 
 /* Gallery */
+
+.gallery {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 64px 0;
+}
 
 .gallery div {
     max-width: 400px;
@@ -262,4 +284,76 @@ b {
 
 .Table__tr:nth-child(even) {
     background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+@media only screen and (min-width: 790px) {
+    
+    .About__img {
+        max-width: calc(50vh - 16px);
+    }   
+
+    h1 {
+        font-size: 128px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        padding-top: 20px;
+    }
+
+    h2 {
+    
+        font-size: 56px;
+    }
+    
+    h3 {
+        font-size: 48px;
+    }
+    
+    h4 {
+        font-size: 42px;
+    }
+    
+    h5 {
+        font-size: 34px;
+    }
+ 
+    p {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        font-weight: 300;
+    }
+
+    b {
+        font-weight: 700;
+        font-size: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .About {
+        display: flex;
+        gap: 64px;
+        align-items: center;
+        max-width: 1000px;
+        padding: 128px 16px 0;
+    }
+
+    .Line__heading-About {
+        padding: 0;
+    }
+
+    .Line__heading {
+        padding-top: 128px;
+    }
+
+    .Img div {
+        max-width: 600px;
+    }
+
+    .Table {
+        max-width: 1000px;
+    }
 }

@@ -9,9 +9,10 @@ Link to **[demo](http://127.0.0.1:5500/index.html)** site for preview.
     1. [Line](#line)
     2. [Article card](#article-card)
     3. [About card](#about-card)
-    4. [Line](#)
-    5. [Line](#)
-    6. [Line](#)
+    4. [Buttons](#buttons)
+    5. [Image with figcaption](#image-with-figcaption)
+    6. [Gallery](#gallery)
+    7. [Table](#table)
 ## Implementation
 1. Download Plant library in **[Download](...)**
 2. Add file inside your project folder
@@ -19,25 +20,22 @@ Link to **[demo](http://127.0.0.1:5500/index.html)** site for preview.
     ```html
      <link rel="stylesheet" href="Download.css">
 ## Usage
-Typographic libraries with CSS and HTML resources simplify web design, offering multiple components.
+Typographic librari with CSS and HTML resources simplify web design, offering multiple components.
 ## Components
 ### Line
 used for seperating headings from rest of the content.
 
 syntax for Line:
 ```html
-<div class="Heading__Heading">
-    <h1>Plant</h1>
-    <p class="Heading__text">The Library</p>
+<div class="Line__heading">
+    <h2>Your heading</h2>
     <div class="Line">
         &nbsp;
     </div>
 </div>
 ```
 ### Article card
-A card with text used for news or an img with text.
-
-Includes a hover 
+A card with text used for news or an img with text. Add an img and you have a redy to go card. Text automaticli ends after 3 lines. Includes a hover 
 
 syntax for Line:
 ```html
@@ -53,7 +51,7 @@ syntax for Line:
 ```
 
 ### About card
-A card used for information about something and a picture.
+A card used for information about something and a picture. Great fot about.
 ```html
 <article class="About">
     <div> 
@@ -72,7 +70,7 @@ A card used for information about something and a picture.
 ```
 
 ### Buttons
-There are 2 versions of buttons, both have hover and href.
+There are 2 versions of buttons, both have a hover and href. You just need to put them into a container and enjoy.
 
 Version 1 syntax:
 ```html
@@ -88,18 +86,21 @@ Version 2 syntax:
 ```
 
 ### Image with figcaption
+An imge that shows figcaption on hover. Great for an important image.
 
 syntax:
 ```html
 <figure class="Img">
     <div>
-        <img src="./img/irina-iriser--FnGodn23_c-unsplash.jpg" alt="Image">
+        <img src="Your image" alt="Image">
         <figcaption>Your Caption</figcaption>
     </div>
 </figure>
 ```
 
 ### Gallery
+A gallery of images, great for showing multiple images at once.
+
 syntax:
 ```html
 <div class="gallery">
@@ -131,6 +132,8 @@ syntax:
 ```
 
 ### Table 
+Pre styled table that you can use for better visualization of data
+
 syntax:
 ```html
 <table class="Table">
