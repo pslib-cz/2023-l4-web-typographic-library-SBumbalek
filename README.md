@@ -14,7 +14,7 @@ Link to **[demo](http://127.0.0.1:5500/index.html)** site for preview.
     6. [Gallery](#gallery)
     7. [Table](#table)
 ## Implementation
-1. Download Plant library in **[Download](...)**
+1. Download Plant library in **[Download](https://github.com/pslib-cz/2023-l4-web-typographic-library-SBumbalek/blob/master/Download.css)**
 2. Add file inside your project folder
 3. Link download.css in html
     ```html
