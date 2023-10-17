@@ -5,7 +5,9 @@ Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-SBum
 ## Content
 1. [Implemantation](#implementation)
 2. [Usage](#usage)
-3. [Components](#components)
+3. [Color](#color)
+4. [Fonts](#font)
+5. [Components](#components)
     1. [Line](#line)
     2. [Article card](#article-card)
     3. [About card](#about-card)
@@ -21,6 +23,18 @@ Link to **[demo](https://pslib-cz.github.io/2023-l4-web-typographic-library-SBum
      <link rel="stylesheet" href="Download.css">
 ## Usage
 Typographic librari with CSS and HTML resources simplify web design, offering multiple components.
+## Color
+This library uses predefined colors.
+```css
+:root {
+    --DarkGreen: #0f270f;
+    --MidGreen: #008000;
+    --LightGreen: #cde7d9;
+}
+```
+## Font
+This library uses [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto) font
+
 ## Components
 ### Line
 used for seperating headings from rest of the content.
@@ -35,7 +49,7 @@ syntax for Line:
 </div>
 ```
 ### Article card
-A card with text used for news or an img with text. Add an img and you have a redy to go card. Text automaticli ends after 3 lines. Includes a hover 
+A card with text used for news or an img with text. Add an img and you have a redy to go card. Text automatically ends after 3 lines. Includes a hover 
 
 syntax for Line:
 ```html
@@ -164,4 +178,3 @@ syntax:
     </tbody>
 </table>
 ```
-
